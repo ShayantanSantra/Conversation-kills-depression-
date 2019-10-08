@@ -1,0 +1,1 @@
+<center><a href="forum.php">Home Page</a> | <a href="account.php">My Account</a> | <a href="members.php">Member</a> | <a href="forum.php?action=logout">Log Out</a></center>

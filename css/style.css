@@ -1,0 +1,178 @@
+*{margin:0px; padding:0px; font-family:Helvetica, Arial, sans-serif;}
+body { 
+	animation: fadeInAnimation ease 3s; 
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+	0% { 
+		opacity: 0; 
+	} 
+	100% { 
+		opacity: 1; 
+	} 
+} 
+a {
+	color: #69C;
+	text-decoration: none;
+}
+
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+table {
+	margin-left:26px;
+	border:2px solid purple;
+	border-collapse: collapse;
+	width: 90%;
+	text-align: center;
+	margin-top:20px;
+	padding:15px;
+	color:black;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 22px;
+	text-align: left;
+	}
+	td{
+		font-family: 'Times New Roman', Times, serif;
+		margin:10px;
+	}
+	th {
+	background-color: #588c7e;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	text-align:center;
+	}
+	tr:nth-child(even) {background-color: #f2f2f2}
+
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #66CC75;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+#login-form{
+display:none;
+float:right;
+margin-right:20px;
+height:500px;
+width:400px;
+}
+#signup-form{
+display:none;
+float:right;
+margin-right:20px;
+height:500px;
+width:400px;
+}
+.login {
+  background: url(../img/user.png) no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+#login a:link, a:visited {
+border:3px solid orange;
+padding:5px;
+color:white;
+width:80px;
+margin-top:4px;
+border-radius:20px;
+font-family:cortana;
+font-size:17px;
+margin-right:20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#login a:hover, a:active {
+  background-color: white;
+  color:black;
+}
+
+#signup a:link, a:visited {
+border:3px solid orange;
+padding:5px;
+color:white;
+width:180px;
+font-size:17px;
+margin-top:4px;
+border-radius:20px;
+font-family:cortana;
+margin-right:20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#signup a:hover, a:active {
+  background-color: white;
+  color:black;
+}
+#myVideo1 {
+	position: relative;
+	margin:200px;
+	margin-bottom:100px;
+	margin-top:120px;
+	width:1000px;
+	height:600px;
+  }
+  #myVideo2 {
+	position: relative;
+	margin:200px;
+	margin-bottom:40px;
+	margin-top:0px;
+	width:1000px;
+	height:600px;
+  }
+  #myVideo3 {
+	position: relative;
+	margin:200px;
+	margin-bottom:40px;
+	margin-top:0px;
+	width:1000px;
+	height:600px;
+  }
+  img, 
+  figure {
+	max-width: 100%;
+  }
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
